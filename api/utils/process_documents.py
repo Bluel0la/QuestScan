@@ -4,7 +4,7 @@ from api.utils.pipeline import preprocess_for_ocr
 from api.pdf.extract_pages import pdf_to_images
 import time, shutil, os, uuid, cv2
 from typing import List, Tuple
-from api.ocr.base import (
+from api.v1.schemas.base import (
     HandwritingOCRProvider,
     OCRRequest,
     OCRResult,

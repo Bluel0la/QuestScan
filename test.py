@@ -1,5 +1,5 @@
 from api.utils.process_documents import process_document
-from api.ocr.base import OCRRequest, OCRAction
+from api.v1.schemas.base import OCRRequest, OCRAction
 import json
 
 request = OCRRequest(action=OCRAction.TRANSCRIBE, options={"delete_after": 600})
