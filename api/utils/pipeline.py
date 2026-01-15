@@ -1,9 +1,9 @@
-from preprocessing.enhance_contrast import enhance_contrast
-from preprocessing.threshold import adaptive_threshold
-from preprocessing.denoise import median_denoise
-from preprocessing.resize import resize_to_ocr
-from preprocessing.grayscale import grayscale
-from preprocessing.deskew import deskew
+from api.preprocessing.enhance_contrast import enhance_contrast
+from api.preprocessing.threshold import adaptive_threshold
+from api.preprocessing.denoise import median_denoise
+from api.preprocessing.resize import resize_to_ocr
+from api.preprocessing.grayscale import grayscale
+from api.preprocessing.deskew import deskew
 import numpy as np
 
 
